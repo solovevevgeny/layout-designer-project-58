@@ -9,8 +9,13 @@
     --color-primary-dark: #42413C;
 }
 
+h1, h2, h3, h4 {
+    line-height: 1.2em;
+}
+
 h1 {
     font-size: 72px;
+    
 }
 h2 {
     font-size: 60px;
