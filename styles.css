@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 :root {
     --color-white: #FFFFFF;
     --color-white50: #D7CCC0;
@@ -7,10 +10,21 @@
     --color-brown: #B09A81;
     --color-primary: #FE8A02;
     --color-primary-dark: #42413C;
+
+    --ff-headers: "Neucha";
+    --ff-normal: "Open sans";
+
+}
+
+body {
+    font-family: var(--ff-normal);
 }
 
 h1, h2, h3, h4 {
     line-height: 1.2em;
+    font-family: var(--ff-headers);
+    font-weight: 400;
+    font-style: normal;
 }
 
 h1 {
@@ -31,10 +45,4 @@ h3 {
 
 p  {
     font-size: 16px;
-}
-
-section {
-    max-width: 1110px;
-    text-align: center;
-    padding: 100px 0;
 }
