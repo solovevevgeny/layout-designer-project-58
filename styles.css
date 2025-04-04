@@ -18,6 +18,8 @@
 
 body {
     font-family: var(--ff-normal);
+    line-height: 1.6em;
+    color: var(--color-dark);
 }
 
 h1, h2, h3, h4 {
@@ -45,4 +47,14 @@ h3 {
 
 p  {
     font-size: 16px;
+
 }
+
+section {
+    max-width: 1110px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.section-light {}
+.section-dark {}
