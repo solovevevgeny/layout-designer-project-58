@@ -39,6 +39,7 @@
 }
 body {
     font-family: var(--ff-normal);
+    line-height: 1.6em;
 }
 
 * {
