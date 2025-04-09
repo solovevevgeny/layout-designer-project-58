@@ -203,7 +203,8 @@
     color: var(--color-primary);
   }
 
-  #ikea-effect {
+
+  .pt-pm--10{
     padding: -10px 0;
   }
 
