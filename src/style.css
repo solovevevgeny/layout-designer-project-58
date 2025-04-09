@@ -67,6 +67,10 @@
     color: var(--color-dark);
   }
 
+  .text-white {
+    color: var(--color-white);
+  }
+
  div {
     /* border: 1px solid red; */
   }
@@ -135,4 +139,33 @@
 
   .video-section {
     text-align: center;
+  }
+
+  #navigation {
+    background: var(--color-primary-dark);
+  }
+
+  .navigations-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+  }
+
+  .navigation-card-header h2{
+    font-size: 52px;
+  }
+  .navigation-card {
+    background: var(--color-light);
+    padding: 24px;
+  }
+  .navigation-card-number {
+    margin-bottom: 40px;
+    font-size: 64px;
+    font-family: 'Neucha';
+    line-height: 1;
+  }
+  .navigation-card-header {
+    color: var(--color-primary);
   }
