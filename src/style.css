@@ -224,6 +224,6 @@
     color: var(--color-brown);
   }
 
-  #premature-optimization {
+  #premature-optimization, #hyperbolic-depreciation {
     color: var(--color-white);
   }
