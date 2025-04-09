@@ -82,6 +82,10 @@
     color: var(--color-dark-50);
   }
 
+  .text-white-50 {
+    color: var(--color-white-50);
+  }
+
  div {
     /* border: 1px solid red; */
   }
@@ -217,4 +221,9 @@
 
   .header-line-light {
     background: var(--color-white);
+    color: var(--color-brown);
+  }
+
+  #premature-optimization {
+    color: var(--color-white);
   }
