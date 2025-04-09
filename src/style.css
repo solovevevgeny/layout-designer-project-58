@@ -1,11 +1,11 @@
 @font-face {
     font-family: Neucha;
-    src: url("../fonts/Neucha-Regular.ttf");
+    src: url("./fonts/Neucha-Regular.ttf");
   }
   
   @font-face {
     font-family: OpenSans;
-    src: url("../fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+    src: url("./fonts/OpenSans-VariableFont.ttf");
   }
   
   :root {
@@ -17,6 +17,12 @@
     --color-primary: #FE8A02;
     --color-primary-dark: #42413C;
     --color-white-50: #D7CCC0;
+  }
+
+  * {
+    /* padding: 0; */
+    /* margin: 0; */
+    box-sizing: border-box;
   }
 
   h1, h2, h3, h4 {
@@ -33,4 +39,82 @@
   }
   h3 {
     font-size: 34px;
+  }
+
+
+  body {
+    font-family: OpenSans;
+    line-height: 1.6em;
+    color: var(--color-dark);
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    position: relative;
+  }
+
+  .text-primary {
+    color: var(--color-primary);
+  }
+
+  .text-dark {
+    color: var(--color-dark);
+  }
+
+ div {
+    /* border: 1px solid red; */
+  }
+
+  .container {
+    max-width: 1110px;
+    margin: 0 auto;
+    position: relative;
+    padding: 100px 0;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .row div {
+    flex: 1 1;
+  }
+
+  .header-image {
+    position: absolute;
+    height: 525px;
+    top: 55px;
+    right: -270px;
+  }
+
+  .bg::before {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    content: "";
+    background-image: url('./images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.1;
+  }
+
+  .bg-light {
+    background-color: var(--color-light);
+  }
+
+  .link-more {
+    background: var(--color-primary);
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--color-white);
+    font-weight: bold;
+    display: inline-block;
+    padding: 12px 24px;
+  }
+  .mt-130 {
+    margin-top: 130px;
   }
