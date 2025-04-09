@@ -227,3 +227,13 @@
   #premature-optimization, #hyperbolic-depreciation {
     color: var(--color-white);
   }
+
+  footer {
+    padding: -10px 0;
+  }
+  
+  .contact-form  {
+    background: var(--color-primary-dark);
+    color: var(--color-white);
+    padding: 55px;
+  }
