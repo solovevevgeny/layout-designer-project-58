@@ -124,3 +124,15 @@
   .mt-180 {
     margin-top: 185px;
   }
+
+  .mb-30 {
+    margin-bottom: 30px;
+  }
+
+  .filter {
+    filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+  }
+
+  .video-section {
+    text-align: center;
+  }
