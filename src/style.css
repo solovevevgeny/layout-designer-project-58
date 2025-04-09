@@ -42,6 +42,9 @@
   h3 {
     font-size: 34px;
   }
+  h4 {
+    font-size: 24px;
+  }
 
   p {
     margin-top: 1em;
@@ -57,9 +60,11 @@
     flex-direction: column;
   }
 
-  header {
+  header, section {
     position: relative;
   }
+
+
 
   .text-primary {
     color: var(--color-primary);
@@ -71,6 +76,10 @@
 
   .text-white {
     color: var(--color-white);
+  }
+
+  .text-dark-50 {
+    color: var(--color-dark-50);
   }
 
  div {
@@ -117,6 +126,10 @@
     background-color: var(--color-light);
   }
 
+  .bg-dark {
+    background-color: var(--color-brown);
+  }
+
   .link-more {
     background: var(--color-primary);
     text-decoration: none;
@@ -129,6 +142,10 @@
   }
   .mt-180 {
     margin-top: 185px;
+  }
+
+  .mt-100 {
+    margin-top: 100px;
   }
 
   .mb-30 {
@@ -169,8 +186,8 @@
   .navigation-card {
     background: var(--color-light);
     padding: 24px;
-    color: 
   }
+
   .navigation-card-number {
     margin-bottom: 40px;
     font-size: 64px;
@@ -180,4 +197,24 @@
   }
   .navigation-card-header {
     color: var(--color-primary);
+  }
+
+  #ikea-effect {
+    padding: -10px 0;
+  }
+
+  .header-line {
+    text-transform: uppercase;
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .header-line-dark {
+    background: var(--color-brown);
+    color: var(--color-white);
+  }
+
+  .header-line-light {
+    background: var(--color-white);
   }
