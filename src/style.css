@@ -231,7 +231,11 @@
   footer {
     padding: -10px 0;
   }
-  
+
+  .lh-1 {
+    line-height: 1;
+  }
+
   .contact-form  {
     background: var(--color-primary-dark);
     color: var(--color-white);
